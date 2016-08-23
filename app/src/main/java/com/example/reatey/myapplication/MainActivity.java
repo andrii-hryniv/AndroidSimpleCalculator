@@ -80,8 +80,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     textView.setText(res);
                     break;
                 case "/":
-                    double resDevide = numberOne / numberTwo;
-                    String strRes = Double.toString(resDevide);
+                    double resDivide = numberOne / numberTwo;
+                    String strRes = Double.toString(resDivide);
                     textView.setText(strRes);
                     break;
                 default:
