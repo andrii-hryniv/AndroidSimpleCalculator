@@ -1,0 +1,10 @@
+name: hello-world
+on: push
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: stdout
+        run: |
+          echo "Hello World!"
+          exit 0
